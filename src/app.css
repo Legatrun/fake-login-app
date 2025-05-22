@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #393a3e;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.home-list {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #2c2d31;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+form, .home-content {
+  background-color: #2c2d31;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #555;
+}
