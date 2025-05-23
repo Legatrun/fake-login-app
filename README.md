@@ -11,3 +11,8 @@
 ```bash
 npm install
 npm run dev
+
+
+### Mejora teórica
+
+-aplicar Lazyload para la lista de 2000 elementos o paginación   
